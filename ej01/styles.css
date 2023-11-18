@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .menu-item {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    background-color: #555;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  .submenu li {
+    display: block;
+  }
+  
+  .submenu li a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .submenu li a:hover {
+    background-color: #555;
+  }
+  
